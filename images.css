@@ -1,0 +1,58 @@
+.upper-img {
+    position: absolute;
+    width: 5rem;
+}
+
+.upper1-img {
+    position: absolute;
+    width: 2rem;
+}
+
+#upper-1-img {
+    left: 3.5rem;
+}
+
+#upper-2-img {
+    right: 3.5rem;
+}
+
+.cir {
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: red;
+    border-radius: 50%;
+    top: 4.5rem;
+    position: absolute;
+    left: 1.7rem;
+}
+
+.cir1 {
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: red;
+    border-radius: 50%;
+    top: 4.5rem;
+    position: absolute;
+    right: -2.3rem;
+}
+
+.image-flex1 {
+    top: 15rem;
+    position: absolute;
+    left: 8rem;
+}
+
+.image-flex2 {
+    top: 15rem;
+    position: absolute;
+    right: 12rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 500px) {
+    .upper-img {
+        width: 4rem;
+    }
+}
