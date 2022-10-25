@@ -2,12 +2,9 @@
 
 @media (max-width: 500px) {
     .upper-img {
-        width: 4rem;
-    }.upper-img {
         position: absolute;
-        width: 5rem;
+        width: 4rem;
     }
-    
     .upper1-img {
         position: absolute;
         width: 2rem;
