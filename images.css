@@ -1,6 +1,6 @@
 .upper-img {
     position: absolute;
-    width: 4rem;
+    width: 3.5rem;
 }
 
 .upper1-img {
@@ -21,9 +21,9 @@
     height: 0.6rem;
     background-color: red;
     border-radius: 50%;
-    top: 4.5rem;
+    top: 4rem;
     position: absolute;
-    left: 1.7rem;
+    right: -2rem;
 }
 
 .cir1 {
@@ -31,13 +31,13 @@
     height: 0.6rem;
     background-color: red;
     border-radius: 50%;
-    top: 4.5rem;
+    top: 4rem;
     position: absolute;
-    right: -2.3rem;
+    right: -2rem;
 }
 
 .image-flex1 {
-    top: 15rem;
+    top: 15em;
     position: absolute;
     left: 8rem;
 }
@@ -132,24 +132,270 @@
     right: 0;
 }
 
-#img-gal-15{
+#img-gal-15 {
     position: absolute;
     top: 650px;
     left: -30px;
 }
-#img-gal-16{
+
+#img-gal-16 {
     position: absolute;
     top: 650px;
     right: -30px;
 }
 
-#img-gal-17{
+#img-gal-17 {
     position: absolute;
     top: 770px;
     left: 0;
 }
-#img-gal-18{
+
+#img-gal-18 {
     position: absolute;
     top: 770px;
     right: 0;
+}
+
+#img-gal-19 {
+    position: absolute;
+    top: 880px;
+    left: -25px;
+}
+
+#img-gal-20 {
+    position: absolute;
+    top: 880px;
+    right: -25px;
+}
+
+#img-gal-21 {
+    position: absolute;
+    top: 990px;
+    left: 0;
+}
+
+#img-gal-22 {
+    position: absolute;
+    top: 990px;
+    right: 0;
+}
+
+#img-gal-23 {
+    position: absolute;
+    top: 1060px;
+    left: -30px;
+}
+
+#img-gal-24 {
+    position: absolute;
+    top: 1060px;
+    right: -30px;
+}
+
+#img-gal-24 {
+    position: absolute;
+    top: 1060px;
+    right: -30px;
+}
+
+#img-gal-25 {
+    position: absolute;
+    top: 1180px;
+}
+
+#img-gal-26 {
+    position: absolute;
+    top: 1180px;
+    right: 0px;
+}
+
+#img-gal-27 {
+    position: absolute;
+    top: 1705px;
+    right: 60px;
+}
+
+#img-gal-28 {
+    position: absolute;
+    top: 1705px;
+    left: 60px;
+}
+
+#img-gal-29 {
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
+
+#img-gal-30 {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+}
+
+#img-gal-31 {
+    position: absolute;
+    top: 110px;
+    right: -5px;
+}
+
+#img-gal-32 {
+    position: absolute;
+    top: 110px;
+    left: -5px;
+}
+
+#img-gal-33 {
+    position: absolute;
+    top: 170px;
+    right: -32px;
+}
+
+#img-gal-34 {
+    position: absolute;
+    top: 170px;
+    left: -32px;
+}
+
+#img-gal-35 {
+    position: absolute;
+    top: 260px;
+    left: -5px;
+}
+
+#img-gal-36 {
+    position: absolute;
+    top: 260px;
+    right: -5px;
+}
+
+#img-gal-37 {
+    position: absolute;
+    top: 320px;
+    right: -20px;
+}
+
+#img-gal-38 {
+    position: absolute;
+    top: 320px;
+    left: -20px;
+}
+
+#img-gal-39 {
+    position: absolute;
+    top: 500px;
+    left: -30px;
+}
+
+#img-gal-40 {
+    position: absolute;
+    top: 500px;
+    right: -30px;
+}
+
+#img-gal-41 {
+    position: absolute;
+    top: 600px;
+    right: -5px;
+}
+
+#img-gal-42 {
+    position: absolute;
+    top: 600px;
+    left: -5px;
+}
+
+#img-gal-43 {
+    position: absolute;
+    top: 660px;
+    right: -32px;
+}
+
+#img-gal-44 {
+    position: absolute;
+    top: 660px;
+    left: -32px;
+}
+
+#img-gal-45 {
+    position: absolute;
+    top: 750px;
+    left: -5px;
+}
+
+#img-gal-46 {
+    position: absolute;
+    top: 750px;
+    right: -5px;
+}
+
+#img-gal-47 {
+    position: absolute;
+    top: 810px;
+    right: -20px;
+}
+
+#img-gal-48 {
+    position: absolute;
+    top: 810px;
+    left: -20px;
+}
+
+#img-gal-49 {
+    position: absolute;
+    top: 990px;
+    left: -30px;
+}
+
+#img-gal-50 {
+    position: absolute;
+    top: 990px;
+    right: -30px;
+}
+
+#img-gal-51 {
+    position: absolute;
+    top: 1090px;
+    right: -5px;
+}
+
+#img-gal-52 {
+    position: absolute;
+    top: 1090px;
+    left: -5px;
+}
+#img-gal-53{
+    position: absolute;
+    top: 1150px;
+    right: -32px;
+}
+
+#img-gal-54 {
+    position: absolute;
+    top: 1150px;
+    left: -32px;
+}
+
+#img-gal-55 {
+    position: absolute;
+    top: 1240px;
+    left: -5px;
+}
+
+#img-gal-56 {
+    position: absolute;
+    top: 1240px;
+    right: -5px;
+}
+
+#img-gal-57 {
+    position: absolute;
+    top: 1300px;
+    right: -20px;
+}
+
+#img-gal-58 {
+    position: absolute;
+    top: 1300px;
+    left: -20px;
 }

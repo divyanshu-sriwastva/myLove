@@ -9,6 +9,582 @@
     <link rel="shortcut icon" href="./img/shrishti_1.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="images.css">
+    <style>
+        /* Simple CSS codes */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        .h1 {
+            text-align: center;
+            color: rgb(119, 0, 255);
+            font-size: 3.2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        span {
+            color: rgb(255, 0, 85);
+            text-decoration: 2px underline double rgb(255, 0, 85);
+        }
+
+        .shrishti-main-img {
+            width: 15rem;
+            border-radius: 100%;
+            box-shadow: 0px 0px 29px -11px rgb(255, 0, 85);
+        }
+
+        body {
+            background-color: rgb(255, 227, 227);
+            padding: 5rem 2rem;
+        }
+
+        .love-letter {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(255, 0, 85);
+            width: 80rem;
+            margin: 4rem auto;
+            word-spacing: .5rem;
+            font-size: 2.2rem;
+            text-transform: capitalize;
+            line-height: 3.8rem;
+        }
+
+        .main-img {
+            display: flex;
+            justify-content: center;
+            margin: 5rem 0;
+            align-items: center;
+        }
+
+        .shrishti-image {
+            width: 25rem;
+            border-radius: .5rem;
+        }
+
+        .gallery,
+        .reels {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .margin-center {
+            margin: 0 3rem;
+        }
+
+        .div-img {
+            background-color: rgba(255, 0, 85, 0.13);
+            box-shadow: 6px 9px 18px -5px gray;
+            border-radius: 7px;
+            width: 27.5rem;
+            height: 40.5rem;
+            display: grid;
+            place-items: center;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: 2px underline double rgb(255, 0, 85);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5rem;
+            color: rgb(119, 0, 255);
+            letter-spacing: .4rem;
+            font-size: 3.8rem;
+        }
+
+        .heart-img {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        .img2 {
+            background-color: rgba(255, 0, 85, 0.13);
+            box-shadow: 6px 9px 18px -5px gray;
+            border-radius: 7px;
+            width: 258px;
+            height: 405px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 220px;
+            border-radius: 5px;
+        }
+
+        /* Responsive codes */
+
+        @media (max-width: 500px) {
+            html {
+                font-size: 50%;
+            }
+
+            body {
+                padding: 5rem 4rem;
+                padding-bottom: 1rem;
+            }
+
+            .love-letter {
+                width: 100%;
+            }
+
+            .h1 {
+                font-size: 2.8rem;
+            }
+
+            .img-margin-center {
+                margin-top: 3.5rem;
+                margin-bottom: 2.9rem;
+            }
+
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+
+        .line {
+            background-color: rgb(255, 0, 85);
+            height: 1px;
+            width: 95vw;
+        }
+
+        .line2 {
+            background-color: rgb(255, 0, 85);
+            height: 1.4px;
+            margin-top: 4px;
+            width: 95vw;
+        }
+
+        .foot-p {
+            color: rgb(255, 0, 85);
+            font-size: 20px;
+            font-family: monospace;
+            margin: 10px 0;
+            margin-left: 30px;
+        }
+
+        #logo {
+            margin-top: 20px;
+        }
+
+        .div {
+            display: grid;
+            place-items: center;
+        }
+
+        .upper-img {
+            position: absolute;
+            width: 3.5rem;
+        }
+
+        .upper1-img {
+            position: absolute;
+            width: 2rem;
+        }
+
+        #upper-1-img {
+            left: 3.5rem;
+        }
+
+        #upper-2-img {
+            right: 3.5rem;
+        }
+
+        .cir {
+            width: 0.6rem;
+            height: 0.6rem;
+            background-color: red;
+            border-radius: 50%;
+            top: 4rem;
+            position: absolute;
+            right: -2rem;
+        }
+
+        .cir1 {
+            width: 0.6rem;
+            height: 0.6rem;
+            background-color: red;
+            border-radius: 50%;
+            top: 4rem;
+            position: absolute;
+            right: -2rem;
+        }
+
+        .image-flex1 {
+            top: 15em;
+            position: absolute;
+            left: 8rem;
+        }
+
+        .image-flex2 {
+            top: 15rem;
+            position: absolute;
+            right: 12rem;
+        }
+
+        .gal {
+            position: relative;
+        }
+
+        #img-gal-1 {
+            position: absolute;
+            top: -5px;
+        }
+
+        #img-gal-2 {
+            position: absolute;
+            top: -5px;
+            right: 0px;
+        }
+
+        #img-gal-3 {
+            position: absolute;
+            left: -30px;
+        }
+
+        #img-gal-4 {
+            position: absolute;
+            right: -30px;
+        }
+
+        #img-gal-5 {
+            position: absolute;
+            left: 0px;
+            top: 185px;
+        }
+
+        #img-gal-6 {
+            position: absolute;
+            right: 0px;
+            top: 185px;
+        }
+
+        #img-gal-7 {
+            position: absolute;
+            right: -30px;
+            top: 260px;
+        }
+
+        #img-gal-8 {
+            position: absolute;
+            left: -30px;
+            top: 260px;
+        }
+
+        #img-gal-9 {
+            position: absolute;
+            top: 360px;
+        }
+
+        #img-gal-10 {
+            position: absolute;
+            top: 360px;
+            right: 0;
+        }
+
+        #img-gal-11 {
+            top: 470px;
+            position: absolute;
+            left: -30px;
+        }
+
+        #img-gal-12 {
+            top: 470px;
+            position: absolute;
+            right: -30px;
+        }
+
+        #img-gal-13 {
+            position: absolute;
+            top: 585px;
+            left: 0;
+        }
+
+        #img-gal-14 {
+            position: absolute;
+            top: 585px;
+            right: 0;
+        }
+
+        #img-gal-15 {
+            position: absolute;
+            top: 650px;
+            left: -30px;
+        }
+
+        #img-gal-16 {
+            position: absolute;
+            top: 650px;
+            right: -30px;
+        }
+
+        #img-gal-17 {
+            position: absolute;
+            top: 770px;
+            left: 0;
+        }
+
+        #img-gal-18 {
+            position: absolute;
+            top: 770px;
+            right: 0;
+        }
+
+        #img-gal-19 {
+            position: absolute;
+            top: 880px;
+            left: -25px;
+        }
+
+        #img-gal-20 {
+            position: absolute;
+            top: 880px;
+            right: -25px;
+        }
+
+        #img-gal-21 {
+            position: absolute;
+            top: 990px;
+            left: 0;
+        }
+
+        #img-gal-22 {
+            position: absolute;
+            top: 990px;
+            right: 0;
+        }
+
+        #img-gal-23 {
+            position: absolute;
+            top: 1060px;
+            left: -30px;
+        }
+
+        #img-gal-24 {
+            position: absolute;
+            top: 1060px;
+            right: -30px;
+        }
+
+        #img-gal-24 {
+            position: absolute;
+            top: 1060px;
+            right: -30px;
+        }
+
+        #img-gal-25 {
+            position: absolute;
+            top: 1180px;
+        }
+
+        #img-gal-26 {
+            position: absolute;
+            top: 1180px;
+            right: 0px;
+        }
+
+        #img-gal-27 {
+            position: absolute;
+            top: 1705px;
+            right: 60px;
+        }
+
+        #img-gal-28 {
+            position: absolute;
+            top: 1705px;
+            left: 60px;
+        }
+
+        #img-gal-29 {
+            position: absolute;
+            top: 10px;
+            left: -30px;
+        }
+
+        #img-gal-30 {
+            position: absolute;
+            top: 10px;
+            right: -30px;
+        }
+
+        #img-gal-31 {
+            position: absolute;
+            top: 110px;
+            right: -5px;
+        }
+
+        #img-gal-32 {
+            position: absolute;
+            top: 110px;
+            left: -5px;
+        }
+
+        #img-gal-33 {
+            position: absolute;
+            top: 170px;
+            right: -32px;
+        }
+
+        #img-gal-34 {
+            position: absolute;
+            top: 170px;
+            left: -32px;
+        }
+
+        #img-gal-35 {
+            position: absolute;
+            top: 260px;
+            left: -5px;
+        }
+
+        #img-gal-36 {
+            position: absolute;
+            top: 260px;
+            right: -5px;
+        }
+
+        #img-gal-37 {
+            position: absolute;
+            top: 320px;
+            right: -20px;
+        }
+
+        #img-gal-38 {
+            position: absolute;
+            top: 320px;
+            left: -20px;
+        }
+
+        #img-gal-39 {
+            position: absolute;
+            top: 500px;
+            left: -30px;
+        }
+
+        #img-gal-40 {
+            position: absolute;
+            top: 500px;
+            right: -30px;
+        }
+
+        #img-gal-41 {
+            position: absolute;
+            top: 600px;
+            right: -5px;
+        }
+
+        #img-gal-42 {
+            position: absolute;
+            top: 600px;
+            left: -5px;
+        }
+
+        #img-gal-43 {
+            position: absolute;
+            top: 660px;
+            right: -32px;
+        }
+
+        #img-gal-44 {
+            position: absolute;
+            top: 660px;
+            left: -32px;
+        }
+
+        #img-gal-45 {
+            position: absolute;
+            top: 750px;
+            left: -5px;
+        }
+
+        #img-gal-46 {
+            position: absolute;
+            top: 750px;
+            right: -5px;
+        }
+
+        #img-gal-47 {
+            position: absolute;
+            top: 810px;
+            right: -20px;
+        }
+
+        #img-gal-48 {
+            position: absolute;
+            top: 810px;
+            left: -20px;
+        }
+
+        #img-gal-49 {
+            position: absolute;
+            top: 990px;
+            left: -30px;
+        }
+
+        #img-gal-50 {
+            position: absolute;
+            top: 990px;
+            right: -30px;
+        }
+
+        #img-gal-51 {
+            position: absolute;
+            top: 1090px;
+            right: -5px;
+        }
+
+        #img-gal-52 {
+            position: absolute;
+            top: 1090px;
+            left: -5px;
+        }
+
+        #img-gal-53 {
+            position: absolute;
+            top: 1150px;
+            right: -32px;
+        }
+
+        #img-gal-54 {
+            position: absolute;
+            top: 1150px;
+            left: -32px;
+        }
+
+        #img-gal-55 {
+            position: absolute;
+            top: 1240px;
+            left: -5px;
+        }
+
+        #img-gal-56 {
+            position: absolute;
+            top: 1240px;
+            right: -5px;
+        }
+
+        #img-gal-57 {
+            position: absolute;
+            top: 1300px;
+            right: -20px;
+        }
+
+        #img-gal-58 {
+            position: absolute;
+            top: 1300px;
+            left: -20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,8 +610,8 @@
     <h1 class="h1">I LOVE YOU <span>SHRISHTI</span></h1>
     <div class="love-letter">
         <p>
-            I can't explain how much i love you really. I have no one like you in my life and i don't want also. I
-            really like you shrishti
+            I can't explain how much i love you. I have no one like you in my life and i don't want also. I
+            really like you shrishti. You are really so so so much cute.
         </p>
     </div>
 
@@ -66,6 +642,16 @@
         <img src="./img/heart.png" alt="" id="img-gal-17" width="20">
         <img src="./img/heart.png" alt="" id="img-gal-18" width="20">
 
+
+        <img src="./img/love.png" alt="" id="img-gal-19" width="50">
+        <img src="./img/love.png" alt="" id="img-gal-20" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-21" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-22" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-23" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-24" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-25" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-26" width="20">
+
         <div class="gallery">
             <div class="div-img  margin-center">
                 <img src="./img/shrishti_3.jpg" class="shrishti-image">
@@ -84,7 +670,45 @@
     <!-- Her lovely Reels -->
 
     <h2>REELS</h2>
+
+    <img src="./img/lovely.png" alt="" id="img-gal-27" width="50">
+    <img src="./img/lovely.png" alt="" id="img-gal-28" width="50">
+
     <div class="reels">
+
+        <img src="./img/love.png" alt="" id="img-gal-29" width="50">
+        <img src="./img/love.png" alt="" id="img-gal-30" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-31" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-32" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-33" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-34" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-35" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-36" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-37" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-38" width="50">
+
+        <img src="./img/love.png" alt="" id="img-gal-39" width="50">
+        <img src="./img/love.png" alt="" id="img-gal-40" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-41" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-42" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-43" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-44" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-45" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-46" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-47" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-48" width="50">
+
+        <img src="./img/love.png" alt="" id="img-gal-49" width="50">
+        <img src="./img/love.png" alt="" id="img-gal-50" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-51" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-52" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-53" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-54" width="50">
+        <img src="./img/heart.png" alt="" id="img-gal-55" width="20">
+        <img src="./img/heart.png" alt="" id="img-gal-56" width="20">
+        <img src="./img/lovely.png" alt="" id="img-gal-57" width="50">
+        <img src="./img/lovely.png" alt="" id="img-gal-58" width="50">
+
         <div class="img2 margin-center">
             <video controls width="240px">
                 <source src="./img/vid.mp4" type="video/mp4">
@@ -102,6 +726,23 @@
                 <source src="./img/vid3.mp4" type="video/mp4" title="Hii">
             </video>
         </div>
+        <div class="love-letter">
+            <p>You are so cute and sweet. Your acting is A++.</p>
+        </div>
+        <footer>
+            <div class="line"></div>
+            <div class="line2"></div>
+            <ul>
+                <li class="foot-p">CODED BY - Divyanshu</li>
+                <li class="foot-p">CREATED BY - Divyanshu</li>
+                <li class="foot-p">DESIGNED BY - Divyanshu</li>
+            </ul>
+            <div class="line"></div>
+            <div class="line2"></div>
+            <div class="div">
+                <img src="./img/sign.png" alt="" width="300" id="logo">
+            </div>
+        </footer>
 </body>
 
 </html>

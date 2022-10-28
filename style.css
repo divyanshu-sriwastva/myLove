@@ -59,6 +59,7 @@ body {
 .gallery,
 .reels {
     display: flex;
+    position: relative;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -96,10 +97,15 @@ h2 {
     box-shadow: 6px 9px 18px -5px gray;
     border-radius: 7px;
     width: 258px;
-    height: 443px;
+    height: 405px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+video{
+    width: 220px;
+border-radius: 5px;
 }
 
 /* Responsive codes */
@@ -111,6 +117,7 @@ h2 {
 
     body{
         padding: 5rem 4rem;
+        padding-bottom: 1rem;
     }
 
     .love-letter {
@@ -129,4 +136,33 @@ h2 {
     h2 {
         font-size: 3.5rem;
     }
+}
+
+.line{
+    background-color: rgb(255, 0, 85);
+    height: 1px;
+    width: 95vw;
+}
+.line2{
+    background-color: rgb(255, 0, 85);
+    height: 1.4px;
+    margin-top: 4px;
+    width: 95vw;
+}
+
+.foot-p{
+    color: rgb(255, 0, 85);
+    font-size: 20px;
+    font-family: monospace;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+#logo{
+    margin-top: 20px;
+}
+
+.div{
+    display: grid;
+    place-items: center;
 }
