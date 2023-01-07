@@ -541,7 +541,7 @@
 	</Group>
 
 
-<Image x="540" y="180" align="center" alignV="center" src="lock.png"/>
+<Image x="540" y="200" align="center" alignV="center" src="lock.png"/>
 
 
     <Image x="540" y="#h-27" align="center" alignV="center" alpha="180" src="line.png" >
